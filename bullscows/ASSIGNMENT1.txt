@@ -1,0 +1,93 @@
+***  Assignment 1, Bulls and Cows ***
+
+This is the game of Bulls and Cows, see https://en.wikipedia.org/wiki/Bulls_and_Cows
+Player vs Computer
+
+In this assignment you should use: int's, if, while and functions
+(i.e. no switch, no for-loops, no arrays, no string or other more advanced features!)
+
+Clarification of rules:
+- The computer generates a secret number. This number contains four different digits
+  in range 1-9.
+- The player tries to guess the number.
+- A correct digit in correct position is a bull.
+- A correct digit but in wrong position is a cow.
+- If a digit is counted as bull, it will not count as cow.
+- It is recommended that you check if the player's guess is formally correct, i.e.
+  has four digits, does not contain zero and has no repeated digits.
+  But this is *not* a demand to be approved.
+
+After the player has successfully guessed the number (there are four bulls), the computer
+asks the player if they want to play again. The player chooses by selecting either 0 or 1.
+(See below for example.)
+
+A sample run (the number to guess is 9582 in this example):
+
+    Welcome to Bulls and Cows
+    Try to guess a 4 digit number with digits 1-9
+    and no repeating digits (-1 to abort).
+
+    Bulls = correct digit(s) in correct positions.
+    Cows = correct digit(s).
+
+    Guess  > 1234
+    There are 0 bulls and 1 cows
+    Guess  > 4567
+    There are 1 bulls and 0 cows
+    Guess  > 3456
+    There are 0 bulls and 1 cows
+    Guess  > 1298
+    There are 0 bulls and 3 cows
+    Guess  > 9583
+    There are 3 bulls and 0 cows
+    Guess  > 9582
+    Done, number was 9582 you needed 5 guesses
+    
+    Select 0 or 1 to quit game or to play again:
+
+
+    With check of player's input the first part could look like this:
+
+    Guess > 1234
+    There are 0 bulls and 1 cows
+    Guess > 12
+    Bad guess
+    Guess > 12345
+    Bad guess
+    Guess > 1230
+    Bad guess
+    Guess > 1223
+    Bad guess
+    Guess > 4567
+    There are 1 bulls and 0 cows
+    ...
+
+
+Hints
+-----
+
+* Exercises for set1 may be reused!
+
+* It is sufficient to make functions that only handles 4-digits numbers, but
+  try to make the functions capable of handling numbers of any length. This
+  can in fact be easier to implement! And if you have done ex6fiddling, you
+  already have such functions.
+
+* If you get stuck, try a less general version, which still follows the rules.
+
+* You are free to introduce more functions than the ones already given. That
+  can help to solve some parts.
+
+
+Workflow
+--------
+1.  Inspect code and the functional decomposition in the pdf file.
+
+2.  Implement functions bottom up and test. See function test()
+
+2.  When all test passes. Try to make the game work for one single
+    round (implement simplest possible outline).
+
+3.  When single round works. Surround with a while loop.
+
+4.  Add optional check of user input.
