@@ -1,0 +1,89 @@
+***  Assignment, 2 Snake ***
+
+This is the (close to original) Snake game, see
+  https://www.youtube.com/watch?v=4kIUtQ1vsLY
+  https://en.wikipedia.org/wiki/Snake_(video_game_genre).
+
+We will move a "snake" around in a rectangular world (the terminal window) using 
+u(up)/n(down)/j(right)/h(left) keys (world is 78x18). There is an apple we will try to "eat".
+When the apple is eaten, the snake will grow with one "segment", we will
+increment out points and another (new) apple will appear at some random position.
+If the snake hits borders or itself, the game is over.
+
+This is an event driven program. The program responds to events generated
+by the operating system (as indication of some hardware action, for example a key pressed).
+The events are sent as parameters to special functions, event listeners.
+This is called event handling. All event handling is already implemented, but
+you could have a look at the function kbhit and getch.
+
+
+Some points
+--------------
+The snake is composed of a head and body units. 
+
+The snake should be implemented as a structure.
+
+At the beginning of the game, as the snake is just created, the snake only has its head and 
+one body unit (so the snake's length is 2). The head is initially positioned at the center 
+of the world. The initial direction of the snake is RIGHT.
+
+Each move distance is the same as the size of a body unit = 1 cell of the terminal.
+
+The snake can only hit itself if its length is greater than 2.
+
+If changing to opposed direction, i.e. up/down or left/right, and length is greater
+than 2, the snake will hit itself.
+
+Imagine the terminal as a 2-D reference frame like this:
+
+0...........x-axis............. > 
+.
+.
+.
+.
+y
+-
+a
+x
+i
+s
+.
+.
+.
+.
+v
+
+
+The origin is on the upper left corner of the world (terminal), so:
+    - snake moves down  = y value increases
+    - snake moves right = x value increases
+
+
+Files
+-----
+The entire program is contained in the snake.c file.
+You only need to work on the "TODO" parts, namely in the snake functions (starts ca l.190)
+Test your function one by one by setting #define TEST true on line at the very beginning of snake.c (ca l.6)  
+Then run the actual snake game using #define TEST false 
+
+Do not change the parts where there is no TODO (unless you know what you are doing)
+
+Implementation
+--------------
+First, the world is created with world_walls.
+Then, a new snake and new apple are created. From then the flow of the program is handled by a (built in)
+timer, getting keyboard presses, checking if the snake hit itself or the walls,
+and then building the next state of the world. 
+You only need to implement the snake functions.
+You do not need to call the snake functions in any way, as that is already implemented in the main function.
+
+See // TODO notations for where to code.
+
+
+Testing
+-------
+To run tests, set #define TEST true at the very beginning of snake.c (ca l.6)
+All should print "ok" as usual.
+NOTE: It is very efficient to debug the tests!
+
+Inspect the test functions !!!
