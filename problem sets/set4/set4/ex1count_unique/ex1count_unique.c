@@ -36,4 +36,15 @@ int main(void) {
 
 int count_uniques(const int *arr, int size) {
     // TODO
+    int sum = 0;
+    int prev = 0;
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] != prev) 
+        {
+            prev = arr[i];
+            sum++;
+        }
+    }
+    return sum;
 }

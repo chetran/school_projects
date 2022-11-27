@@ -47,6 +47,19 @@ int main(void) {
 // Param arr modified
 void rotate(int *arr, int size, int steps) {
    // TODO 
+   for (int i = 0; i < size; i++)
+   {
+      int index = i + steps;
+      if (index > size)
+      {
+         index = i - steps;
+      }
+      arr[index] = arr[i];
+   }
+   for (int i = 0; i < size; i++)
+   {
+      printf("%i\n", arr[i]);
+   }
 }
 
 // Param arr modified return incoming array
