@@ -17,10 +17,10 @@
 #define SNAKE_HEAD_SYMBOL 'O'
 #define WALL_SYMBOL '+'
 
-#define UP_ARROW 'u'
-#define LEFT_ARROW 'h'
-#define DOWN_ARROW 'n'
-#define RIGHT_ARROW 'j'
+#define UP_ARROW 'w'
+#define LEFT_ARROW 'a'
+#define DOWN_ARROW 's'
+#define RIGHT_ARROW 'd'
 
 #define START_WAIT 0.3 // s
 #define SPEEDUP_FACTOR 0.9
@@ -212,16 +212,16 @@ void snake_turn(snake_t *snake) {
         //printf("%c\n", input);
         switch (input)
         {
-        case 'u':
+        case 'w':
             snake->dir = UP;
             break;
-        case 'h':
+        case 'a':
             snake->dir = LEFT;
             break;
-        case 'n':
+        case 's':
             snake->dir = DOWN;
             break;
-        case 'j':
+        case 'd':
             snake->dir = RIGHT;
             break;
         default:
