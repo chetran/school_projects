@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="set4" Database="" Version="10000">
+  <Project Name="ex1count_unique" Path="ex1count_unique/ex1count_unique.project" Active="Yes"/>
+  <Project Name="ex2rotate" Path="ex2rotate/ex2rotate.project" Active="No"/>
+  <Project Name="ex3remdupl" Path="ex3remdupl/ex3remdupl.project" Active="No"/>
+  <Project Name="ex4median" Path="ex4median/ex4median.project" Active="No"/>
+  <Project Name="ex5common_elems" Path="ex5common_elems/ex5common_elems.project" Active="No"/>
+  <Project Name="ex6unique_rows" Path="ex6unique_rows/ex6unique_rows.project" Active="No"/>
+  <Project Name="ex7manipulering_matriser" Path="ex7manipulering_matriser/ex7manipulering_matriser.project" Active="No"/>
+  <Project Name="sample_ptr_arr" Path="sample_ptr_arr/sample_ptr_arr.project" Active="No"/>
+  <Project Name="sample_ptr_arr_func" Path="sample_ptr_arr_func/sample_ptr_arr_func.project" Active="No"/>
+  <Project Name="sample_ptr_matrix" Path="sample_ptr_matrix/sample_ptr_matrix.project" Active="No"/>
+  <Project Name="sample_ptr_matrix_func" Path="sample_ptr_matrix_func/sample_ptr_matrix_func.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Windows">
+      <Environment/>
+      <Project Name="ex1count_unique" ConfigName="Windows"/>
+      <Project Name="ex2rotate" ConfigName="Windows"/>
+      <Project Name="ex3remdupl" ConfigName="Windows"/>
+      <Project Name="ex4median" ConfigName="Windows"/>
+      <Project Name="ex5common_elems" ConfigName="Windows"/>
+      <Project Name="ex6unique_rows" ConfigName="Windows"/>
+      <Project Name="ex7manipulering_matriser" ConfigName="Windows"/>
+      <Project Name="sample_ptr_arr" ConfigName="Windows"/>
+      <Project Name="sample_ptr_arr_func" ConfigName="Windows"/>
+      <Project Name="sample_ptr_matrix" ConfigName="Windows"/>
+      <Project Name="sample_ptr_matrix_func" ConfigName="Windows"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Linux">
+      <Environment/>
+      <Project Name="ex1count_unique" ConfigName="Linux"/>
+      <Project Name="ex2rotate" ConfigName="Linux"/>
+      <Project Name="ex3remdupl" ConfigName="Linux"/>
+      <Project Name="ex4median" ConfigName="Linux"/>
+      <Project Name="ex5common_elems" ConfigName="Linux"/>
+      <Project Name="ex6unique_rows" ConfigName="Linux"/>
+      <Project Name="ex7manipulering_matriser" ConfigName="Linux"/>
+      <Project Name="sample_ptr_arr" ConfigName="Linux"/>
+      <Project Name="sample_ptr_arr_func" ConfigName="Linux"/>
+      <Project Name="sample_ptr_matrix" ConfigName="Linux"/>
+      <Project Name="sample_ptr_matrix_func" ConfigName="Linux"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="macOS">
+      <Environment/>
+      <Project Name="ex1count_unique" ConfigName="macOS"/>
+      <Project Name="ex2rotate" ConfigName="macOS"/>
+      <Project Name="ex3remdupl" ConfigName="macOS"/>
+      <Project Name="ex4median" ConfigName="macOS"/>
+      <Project Name="ex5common_elems" ConfigName="macOS"/>
+      <Project Name="ex6unique_rows" ConfigName="macOS"/>
+      <Project Name="ex7manipulering_matriser" ConfigName="macOS"/>
+      <Project Name="sample_ptr_arr" ConfigName="macOS"/>
+      <Project Name="sample_ptr_arr_func" ConfigName="macOS"/>
+      <Project Name="sample_ptr_matrix" ConfigName="macOS"/>
+      <Project Name="sample_ptr_matrix_func" ConfigName="macOS"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

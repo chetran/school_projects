@@ -1,0 +1,54 @@
+*** Exercises Set 4 ***
+
+Do as many exercises as possible *BUT* you can't spend all your time here.
+Assignments are mandatory and need time. Use the leftover exercises as recap for the exam.
+However, at least check out the samples before putting these exercises to the side.
+
+
+*** These exercises will improve your programming skills
+    (and will help you to get approved on the exam)
+    but are not strictly necessary for the assignments ***
+
+Exercises
+---------
+1.  See ex1count_unique.c. Count how many unique elements there are in a sorted
+    integer array. Use for-loop(s).
+
+2.  See ex2rotate.c. Stepwise right rotation of elements in integer array using
+    different approaches. Here you should again use for-loops only.
+
+3.  See ex3remdupl.c. Remove any duplicates in a sorted integer array. The array
+    size should not change, just pad with 0's.
+
+4.  See ex4median.c. Implement the bubble sort and insertion sort algorithms. Then
+    calculate the median for an integer array.
+    See: https://en.wikipedia.org/wiki/Bubble_sort and
+    https://en.wikipedia.org/wiki/Insertion_sort
+
+5.  See ex5common_elems.c. Find elements that are present in all rows in a matrix.
+    Try to break down the function into smaller functions that solves parts of the problem.
+    Draw a sketch like in the labs!
+
+6.  See ex6unique_rows.c. Count how many unique rows in a matrix.
+    Try to break down the function into smaller functions that solves parts of the problem.
+    Draw a sketch like in the assignments!
+
+7.  See ex7manipulering_matriser.c. This is an old exam question. Try to solve
+    this with pen and paper before using the computer.
+    
+    I filen för frågan finns en matris (av heltal) deklarerad.
+
+    a)  Skriv en funktion som fyller matrisen med värden. Värdet för en position
+        ska vara max mellan rad och kolumn index. T.ex. vid position för
+        rad 3 och kolumn 1, ska värdet sättas till 3 (dvs. index för rad). Anropa
+        funktionen i main.
+    
+    b)  Gör en funktion som skriver ut matrisen. Anropa funktionen i main.
+    
+    c)  Gör en funktion som beräknar summan av en rad i matrisen. I main, be
+        användaren välja en rad, beräkna summan med funktionen och skriv ut
+        resultatet.
+    
+    d)  Gör en funktion som beräknar summan av hela matrisen. För full poäng så
+        ska funktionen ifrån c användas. I main, anropa funktionen och skriv ut
+        resultatet.
